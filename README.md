@@ -1,3 +1,6 @@
+# Warnung
+Achtung! Der Code ist grottig, weil ich ihn nur mal eben hingeschustert hab. Texte der Termine beinhalten teilweise Zeichen aus HTML. Das liegt daran, dass ich nichts parse, sondern nur per Regex raushole. 
+
 # Lange Nacht der Wissenschaften Chooser
 Dieses Programm erleichtert die Auswahl von spannenden Terminen, die man gerne auf der langen Nacht der Wissenschaften (http://www.nacht-der-wissenschaften.de/2017/home/) besuchen möchte.
 
