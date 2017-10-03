@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lange Nacht der Wissenschaften Chooser", "Lange Nacht der Wissenschaften Chooser.csproj", "{36738A2B-B484-4338-8BB8-50B803685768}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36738A2B-B484-4338-8BB8-50B803685768}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36738A2B-B484-4338-8BB8-50B803685768}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36738A2B-B484-4338-8BB8-50B803685768}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36738A2B-B484-4338-8BB8-50B803685768}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9B55B9D-EF37-4028-8D31-ECFFEA82EF04}
+	EndGlobalSection
+EndGlobal
