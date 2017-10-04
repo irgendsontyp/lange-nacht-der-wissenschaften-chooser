@@ -51,9 +51,7 @@ namespace Lange_Nacht_der_Wissenschaften_Chooser
 
             foreach (Match matchAppointmentPageLink in matchesAppointmentPageLink)
             {
-                string matchUrl = matchAppointmentPageLink.Groups[1].ToString();
-
-                string contentUrl = "http://www.nacht-der-wissenschaften.de" + matchUrl;
+                string contentUrl = "http://www.nacht-der-wissenschaften.de" + matchAppointmentPageLink.Groups[1].ToString();
 
                 string appointmentsPageContent = webClient.DownloadString(contentUrl);
 
@@ -172,7 +170,7 @@ namespace Lange_Nacht_der_Wissenschaften_Chooser
             
             appointment.Place = File.ReadAllText("content/appointmentDetails/" + getCurrentAppointmentNumber().ToString() + "/place.txt");
             appointment.Title = File.ReadAllText("content/appointmentDetails/" + getCurrentAppointmentNumber().ToString() + "/title.txt");
-            appointment.Url = "http://www.nacht-der-wissenschaften.de" + File.ReadAllText("content /appointmentDetails/" + getCurrentAppointmentNumber().ToString() + "/url.txt");
+            appointment.Url = File.ReadAllText("content/appointmentDetails/" + getCurrentAppointmentNumber().ToString() + "/url.txt");
 
             return appointment;
         }
